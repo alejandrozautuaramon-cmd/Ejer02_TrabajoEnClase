@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+
+    <form action="url_del_servidor.php" method="get">
+        <fieldset>
+            <legend>Formulario de contacto</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required value="dato por defecto">
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="0" max="120" >
+            <br>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Introduce tu email">
+            <br>
+            <label for="colorFavorito">Color Favorito:</label>
+            <input type="color" id="colorFavorito" name="colorFavorito">
+            <br>
+            <input type="hidden" name="token" value="123456789">
+
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+            <br>
+            <label for="horaContacto">Hora de Contacto:</label>
+            <input type="time" id="horaContacto" name="horaContacto">
+            <br>
+            <label for="ciudadNacimiento">Ciudad de Nacimiento:</label>
+            <select id="ciudadNacimiento" name="ciudadNacimiento">
+                <option value="madrid">Madrid</option>
+                <option value="barcelona">Barcelona</option>
+                <option value="valencia">Valencia</option>
+                <option value="sevilla">Sevilla</option>
+            </select>
+            <br>
+            <label>Género:</label>
+            <input type="radio" id="generoHombre" name="genero" value="hombre">
+            <label for="generoHombre">Hombre</label>            
+            <input type="radio" id="generoMujer" name="genero" value="mujer">
+            <label for="generoMujer">Mujer</label>
+            <br>
+
+
+
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50"  > </textarea>
+        </fieldset>
+
+
+        <br>
+        <input type="submit" value="Pulsar para enviar">
+        
+    </form>
+
+
+
+</body>
+</html>

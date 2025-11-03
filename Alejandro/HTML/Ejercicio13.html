@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rellena tu CV</title>
+</head>
+<body>
+    <h3>Rellena tu CV</h3>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label for="provincia">Provincia</label><br>
+            <select id="provincia" name="provincia">
+                <option value="">- selecciona -</option>
+                <option value="madrid">Madrid</option>
+                <option value="barcelona">Barcelona</option>
+                <option value="valencia">Valencia</option>
+                <option value="sevilla">Sevilla</option>
+                <option value="otra">Otra</option>
+            </select>
+            <br><br>
+
+            <label>Fecha de nacimiento</label><br>
+            <input type="text" name="dia" size="2" maxlength="2"> de
+            <select name="mes">
+                <option value="enero">Enero</option>
+                <option value="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+                <option value="abril">Abril</option>
+                <option value="mayo">Mayo</option>
+                <option value="junio">Junio</option>
+                <option value="julio">Julio</option>
+                <option value="agosto">Agosto</option>
+                <option value="septiembre">Septiembre</option>
+                <option value="octubre">Octubre</option>
+                <option value="noviembre">Noviembre</option>
+                <option value="diciembre">Diciembre</option>
+            </select>
+            de <input type="text" name="anio" size="4" maxlength="4">
+            <br><br>
+
+            <label for="temas">Temas de interés</label><br>
+            <select id="temas" name="temas" size="5" multiple>
+                <option>Administración de bases de datos</option>
+                <option>Análisis y programación</option>
+                <option>Arquitectura</option>
+                <option>Calidad</option>
+                <option>ERP, CRM, Business Intelligence</option>
+                <option>Gestión de proyectos</option>
+                <option>Sistemas</option>
+                <option>Telecomunicaciones</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>
