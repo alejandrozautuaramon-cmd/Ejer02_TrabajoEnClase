@@ -16,3 +16,11 @@ Listas de paso a seguir en un proyexto[^1]
 - ADIOS
   <String variable="Esto es una cadena de texto">
   
+---
+Enlace centro:[GF](https://www.gregoriofer.com)
+![LogoGF](https://www.gregoriofer.com/logo.jpg)
+
+| Hola | Adios |
+|--------|-------|
+| 1 | Adios2 |
+---
