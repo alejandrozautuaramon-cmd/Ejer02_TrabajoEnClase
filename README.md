@@ -36,6 +36,13 @@ Git
 : Adios
 
 
-[x] Hola
-[]Adios
-[]Hello
+- [x] Hola
+- [ ]Adios
+- [ ]Hello
+
+<dl>
+  <dt>Termino</dt>
+    <dd>Que tal estas?</dd>
+</dl>
+
+[^1]: Esto es un pie de página
