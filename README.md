@@ -34,3 +34,8 @@ Git
 : Control de versiones
 : Hola
 : Adios
+
+
+[x] Hola
+[]Adios
+[]Hello
