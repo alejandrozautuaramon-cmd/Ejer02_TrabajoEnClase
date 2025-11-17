@@ -31,6 +31,6 @@ Enlace centro:[GF](https://www.gregoriofer.com)
   "age": 25
 ```
 Git
-:Control de versiones
-:Hola
-:Adios
+: Control de versiones
+: Hola
+: Adios
