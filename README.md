@@ -24,3 +24,9 @@ Enlace centro:[GF](https://www.gregoriofer.com)
 |--------|-------|
 | 1 | Adios2 |
 ---
+
+```
+"firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+```
